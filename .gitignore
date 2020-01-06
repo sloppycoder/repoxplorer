@@ -10,3 +10,8 @@ MANIFEST
 htmlcov
 docker/conf
 docker-data
+.vscode/
+.idea/
+py/
+venv/
+*.log
