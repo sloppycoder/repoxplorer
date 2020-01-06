@@ -410,7 +410,7 @@ function build_top_authors_head(top, label) {
 function build_top_authors_body(top, btid_more, limit) {
     top_b = '<table class="table table-striped">';
     top_b += '<tr><th class="col-md-1">Rank</th><th>Name</th><th>Amount</th></tr>';
-    for (i = 3; i < top.length; i++) {
+    for (i = 0; i < top.length; i++) {
         top_b += '<tr>';
         rank = i + 1;
         top_b += '<td>' + rank + '</td>';
